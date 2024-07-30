@@ -8,6 +8,7 @@ import Objetivos from "./components/Objetivos";
 import Usuarios from "./components/Usuarios";
 import Diagrama from "./components/Diagrama";
 import Conclusiones from "./components/Conclusiones";
+import Footer from "./Footer";
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
       <Route path='/detalle/:detalleId' element={<ItemDetailContainer/>}/>
       <Route path='/conclusiones' element={<Conclusiones/>}/>             
                   
-      </Routes>      
+      </Routes>  
+      <Footer/>    
     
     </BrowserRouter>
    

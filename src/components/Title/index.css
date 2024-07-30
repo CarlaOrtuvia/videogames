@@ -1,3 +1,13 @@
 h1 {
- font-family: "Pixelify Sans", sans-serif;;
+ font-family: "Pixelify Sans", sans-serif;
+ background: linear-gradient(90deg, #00ff00, #00ff77, #00ffaa, #00ff77, #00ff00);
+    background-clip: text;
+    color: transparent;
+    font-size: 48px; /* Puedes ajustar el tamaño según lo necesites */
+    font-weight: bold;
+    text-align: center; /* Centra el texto */
+    transition: transform 0.3s ease-in-out; 
+}
+h1:hover {
+    transform: scale(1.2); /* Escala el texto un 20% más grande al pasar el cursor */
 }

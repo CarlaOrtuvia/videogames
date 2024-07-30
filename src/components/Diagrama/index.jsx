@@ -1,5 +1,6 @@
 import React from "react";
 import Title from "../Title";
+import "./diagrama.css";
 
 
 
@@ -31,8 +32,10 @@ function Diagrama() {
     
     <>
     <Title greeting={"Diagrama DER y Carga SQL"}/>
-    <div className="d-flex justify-content-center">
- <Card className="w-50 mt-5 " >
+    
+    <div className="d-flex justify-content-center  ">
+      
+ <Card className="w-50 mt-5 bg-dark text-white" >
         <Card.Img variant="top" src="../assets/images/diagrama.png" className="img-fluid" />
         <Card.Body>
           <Card.Text>
@@ -43,10 +46,10 @@ function Diagrama() {
       </div>
       <br />
 
-        <Row xs={1} md={4} className="g-2 mt-5">
+        <Row xs={1} md={4} className="g-2 mt-5 ">
       {imageUrls.map((url, idx) => (
         <Col key={idx}>
-          <Card className="w-75">
+          <Card bg= "dark" text="white" className="w-75 m-5 card-hover">
             <Card.Img variant="top" src={url} className="img-fluid"  style={{ objectFit: 'cover', height: '12rem' }}/>
             <Card.Body>
               <Card.Title>Carga SQL</Card.Title>
@@ -57,10 +60,10 @@ function Diagrama() {
       ))}
     </Row>
     <br />
-    <Row xs={1} md={4} className="g-2 mt-5">
+    <Row xs={1} md={4} className="g-2 mt-5 ">
       {images.map((url, idx) => (
         <Col key={idx}>
-          <Card className="w-75">
+          <Card bg= "dark" text="white" className="w-75 m-5 card-hover">
             <Card.Img variant="top" src={url} className="img-fluid"  style={{ objectFit: 'cover', height: '12rem' }}/>
             <Card.Body>
               <Card.Title>Carga SQL</Card.Title>
@@ -72,13 +75,13 @@ function Diagrama() {
       ))}
     </Row>
     <br />
-    <Row xs={1} md={4} className="g-2 mt-5">
+    <Row xs={1} md={4} className="g-2 mt-5 mr-4">
       {imagesSql.map((url, idx) => (
         <Col key={idx}>
-          <Card className="w-75">
+          <Card bg= "dark" text="white" className="w-75 m-5 card-hover">
             <Card.Img variant="top" src={url} className="img-fluid"  style={{ objectFit: 'cover', height: '12rem' }}/>
             <Card.Body>
-              <Card.Title>Carga SQL</Card.Title>
+              <Card.Title className="text-L">Carga SQL</Card.Title>
                            
             </Card.Body>
           </Card>
@@ -86,7 +89,7 @@ function Diagrama() {
       ))}
     </Row>
     <div className="d-flex justify-content-center">
- <Card className="w-25 mt-5 mb-5" >
+ <Card  bg= "dark" text= "white"className="w-25 mt-5 mb-5 card-hover " >
         <Card.Img variant="top" src="../assets/images/sqltrece.png" className="img-fluid" />
         <Card.Body>
           <Card.Text>
@@ -94,6 +97,7 @@ function Diagrama() {
           </Card.Text>
         </Card.Body>
       </Card>
+      
       </div>
 
     

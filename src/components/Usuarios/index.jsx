@@ -7,7 +7,7 @@ function Usuarios() {
     <>
     <Title greeting={"Usuarios"}/>
     <div className="d-flex justify-content-center">
-    <Card bg="dark" text="white"className=" w-75 mt-5 ">
+    <Card bg="dark" text="white"className=" w-75 mt-5 mb-5">
       <Card.Header>Nuestros Usuarios</Card.Header>
       <Card.Body>
         <blockquote className="blockquote mb-0">
