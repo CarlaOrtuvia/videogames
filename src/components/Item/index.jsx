@@ -7,7 +7,7 @@ function Item({ info }) {
       <div className="d-flex justify-content-around">
          <Link to={`/detalle/${info.id}`} style={{ textDecoration: 'none', color: 'inherit' }}>
       <Card style={{ width: '18rem' }}>
-        <Card.Img variant="top" src= {info.image}className= "100px180" />
+        <Card.Img variant="top" src= {info.image}className= "100px160" />
         <Card.Body>
         <Card.Text>{info.title}</Card.Text>
          

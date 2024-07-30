@@ -1,4 +1,5 @@
 import React from "react";
+import Title from "../Title";
 
 
 
@@ -27,7 +28,9 @@ import Row from 'react-bootstrap/Row';
 
 function Diagrama() {
   return (
+    
     <>
+    <Title greeting={"Diagrama DER y Carga SQL"}/>
     <div className="d-flex justify-content-center">
  <Card className="w-50 mt-5 " >
         <Card.Img variant="top" src="../assets/images/diagrama.png" className="img-fluid" />

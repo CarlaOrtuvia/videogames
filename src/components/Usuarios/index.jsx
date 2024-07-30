@@ -1,8 +1,11 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
+import Title from "../Title";
 
 function Usuarios() {
   return (
+    <>
+    <Title greeting={"Usuarios"}/>
     <div className="d-flex justify-content-center">
     <Card bg="dark" text="white"className=" w-75 mt-5 ">
       <Card.Header>Nuestros Usuarios</Card.Header>
@@ -20,6 +23,7 @@ Especialistas en Distribución y Logística: Para optimizar la distribución de 
       </Card.Body>
     </Card>
     </div>
+    </>
   );
 }
 

@@ -1,9 +1,13 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
+import Title from "../Title";
 
 function Conclusiones() {
   return (
-    <Card bg="dark" text="white" style={{width:"60rem", margin:"240px"}}>
+    <>
+    <Title greeting={"Conclusiones"}/>
+    <div className="d-flex justify-content-center">
+    <Card bg="dark" text="white" className=" w-75 mt-5 ">
       <Card.Header>NUESTRAS CONCLUSIONES</Card.Header>
       <Card.Body bg="Danger" text="Ligth">
       <blockquote className="blockquote mb-2">
@@ -18,6 +22,8 @@ Finalmente, se puede concluir que en el top 10 de los juegos más vendidos, Wii 
        
       </Card.Body>
     </Card>
+    </div>
+    </>
   );
 }
 

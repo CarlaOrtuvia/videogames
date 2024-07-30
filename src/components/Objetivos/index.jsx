@@ -1,10 +1,12 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
+import Title from "../Title";
 
 
 function Objetivos() {
   return (
     <>
+    <Title greeting={"Objetivos e Hipótesis"}/>
     <div className="d-flex justify-content-center">
     <Card bg="dark" text="white"className="mt-5 w-75">
       <Card.Header>OBJETIVOS DE ANÁLISIS</Card.Header>

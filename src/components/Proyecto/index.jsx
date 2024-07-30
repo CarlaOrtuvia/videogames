@@ -1,9 +1,11 @@
 import React from "react";
 import Card from 'react-bootstrap/Card';
+import Title from "../Title";
 
 function Proyecto() {
   return (
     <>
+    <Title greeting={"Nuestro Proyecto"}/>
     <div className="d-flex justify-content-center">
     <Card bg="dark" text="white"className="mt-5 mr-5 w-75">
       <Card.Header>Venta de Videogames- Data Analitycs</Card.Header>

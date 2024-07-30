@@ -22,7 +22,7 @@ useEffect(() => {
         }, 1000)
 });
 getData.then(res => setData(res.find(dashboard => dashboard.id === parseInt(detalleId))));
-}, [])
+}, [detalleId])
     return(
         <ItemDetail data={data} />
     )
